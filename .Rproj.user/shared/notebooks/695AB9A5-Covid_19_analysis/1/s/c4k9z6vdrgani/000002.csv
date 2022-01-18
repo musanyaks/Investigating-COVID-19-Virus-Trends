@@ -1,0 +1,61 @@
+"0","install.packages(""skimr"")"
+"1","Retrieving 'http://cran.rstudio.com/bin/windows/contrib/4.0/skimr_2.1.3.zip' ...
+"
+"1","	OK [downloaded 1.2 Mb in 1.3 mins]
+"
+"1","Retrieving 'http://cran.rstudio.com/bin/windows/contrib/4.0/dplyr_1.0.7.zip' ...
+"
+"1","	OK [downloaded 1.3 Mb in 1.7 mins]
+"
+"1","Retrieving 'http://cran.rstudio.com/bin/windows/contrib/4.0/generics_0.1.1.zip' ...
+"
+"1","	OK [downloaded 74.5 Kb in 5.7 secs]
+"
+"1","Retrieving 'http://cran.rstudio.com/bin/windows/contrib/4.0/repr_1.1.4.zip' ...
+"
+"1","	OK [downloaded 119 Kb in 6.5 secs]
+"
+"1","Retrieving 'http://cran.rstudio.com/bin/windows/contrib/4.0/tidyr_1.1.4.zip' ...
+"
+"1","	OK [downloaded 1 Mb in 1.1 mins]
+"
+"1","Installing generics [0.1.1] ...
+"
+"1","	OK [installed binary]
+"
+"1","Copying generics [0.1.1] into the cache ...
+"
+"1","	OK [copied to cache in 0.49 seconds]
+"
+"1","Installing dplyr [1.0.7] ...
+"
+"1","	OK [installed binary]
+"
+"1","Copying dplyr [1.0.7] into the cache ...
+"
+"1","	OK [copied to cache in 0.79 seconds]
+"
+"1","Installing repr [1.1.4] ...
+"
+"1","	OK [installed binary]
+"
+"1","Copying repr [1.1.4] into the cache ...
+"
+"1","	OK [copied to cache in 0.61 seconds]
+"
+"1","Installing tidyr [1.1.4] ...
+"
+"1","	OK [installed binary]
+"
+"1","Copying tidyr [1.1.4] into the cache ...
+"
+"1","	OK [copied to cache in 0.71 seconds]
+"
+"1","Installing skimr [2.1.3] ...
+"
+"1","	OK [installed binary]
+"
+"1","Copying skimr [2.1.3] into the cache ...
+"
+"1","	OK [copied to cache in 1.4 seconds]
+"

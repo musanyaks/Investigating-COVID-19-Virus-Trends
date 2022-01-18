@@ -1,0 +1,95 @@
+---
+title: "Investigating COVID-19 Virus Trends"
+author: "Musa R. Nyakerabachi"
+date: "1/16/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Objectives.
+
+This project is about building my skills of the data analysis workflow by evaluating the COVID_19 situation.
+
+# Data exploration
+
+```{r }
+#loading data set
+options(warn = -1)
+install.packages("tidyverse")
+install.packages("readr")
+library(readr)
+library(tidyverse)
+df<-read.csv("covid19.csv")
+
+head(df)
+```
+
+
+```{r}
+#number of rows and columns
+dim(df)
+
+#viewing column names and storinh them in a variable
+col_names<- colnames(df)
+
+#install.packages("skimr") for skimming through the data set
+
+#skimming through the data
+library(skimr)
+skim(df)
+col_names
+
+#viewing  and summarising data
+glimpse(df)
+```
+From above analysis I have used ``tidyverse`` and ``skimr`` package to give all overview of the data set. The data set has 14 colums and 10903 rows. It has 5 columns with character and 9 columns with numeric. From above, the data has no missing values.The ``glimpse`` function also show an overview of the all columns but ``skim`` function from ``skimr`` package give more details than what ``glimpse`` function which is in the umbrella of a group of packages hold by ``tidyverse``.  
+ 
+ 
+```{r}
+#filter the ``all states`` province state and remove the Province_state column
+covid_allsates <- df %>% filter(Province_State == "All States") %>% select(-Province_State)
+
+```
+ From above snippet of code we have removed one column and it consist only All state row.
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```

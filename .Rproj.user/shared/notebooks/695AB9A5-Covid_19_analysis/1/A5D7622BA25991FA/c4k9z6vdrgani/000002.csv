@@ -1,0 +1,3 @@
+"0","#filter the ``all states`` province state and remove the Province_state column"
+"0","covid_allsates <- df %>% filter(Province_State == ""All States"") %>% select(-Province_State)"
+"0",""
