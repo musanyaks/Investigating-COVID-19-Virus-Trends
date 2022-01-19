@@ -1,5 +1,5 @@
 ---
-title: "Investigating COVID-19 Virus Trends"
+title: "Data Structures in R"
 author: "Musa R. Nyakerabachi"
 date: "1/16/2022"
 output: html_document
